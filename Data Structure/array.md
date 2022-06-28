@@ -24,7 +24,7 @@ An array is a data structure that stores values in a contiguous fashion. In othe
 | delete        | O(n)      | shifitng required    |
 | search        |O(n)       | without index, we have to loop through the array to find the item|
 
-## Python List functions
+## Functions of Python List 
 ```python
 new_arr=[2,3,6,4,5,7]
 
