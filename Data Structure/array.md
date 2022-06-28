@@ -23,3 +23,37 @@ An array is a data structure that stores values in a contiguous fashion. In othe
 | insert        | O(n)      | shifting required     |
 | delete        | O(n)      | shifitng required    |
 | search        |O(n)       | without index, we have to loop through the array to find the item|
+
+## Python List functions
+```python
+new_arr=[2,3,6,4,5,7]
+
+#access an element in the array O(1)
+second_ele=new_arr[1]
+
+#add a new element to the array O(1)
+new_arr.append(8)
+
+#remove an element at index 2 
+new_arr.pop(1) #O(n) because we deleted it in the middle
+
+#insert an element at position 2 O(N)
+new_arr.insert(1,"Alien")
+
+#remove an element with value 7  O(1) or O(N)
+new_arr.remove(7)
+
+new_list=new_arr.copy()
+new_arr.count("Alien")
+new_arr.extend([2,3,4]) #add a list or any iterable to the end 
+new_arr.index("Alien") #return the index of where alien is at 
+new_arr.remove("Alien")
+
+new_arr.sort() #sort the array 
+new_arr.reverse() #reverse the array 
+
+print(new_arr)
+
+new_arr.clear()
+
+```
