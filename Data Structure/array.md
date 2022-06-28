@@ -44,7 +44,7 @@ new_arr.insert(1,"Alien")
 new_arr.remove(7)
 
 new_list=new_arr.copy()
-new_arr.count("Alien")
+new_arr.count("Alien") #returns the number of elements with the value "Alien" in the array
 new_arr.extend([2,3,4]) #add a list or any iterable to the end 
 new_arr.index("Alien") #return the index of where alien is at 
 new_arr.remove("Alien")
