@@ -57,3 +57,11 @@ print(new_arr)
 new_arr.clear()
 
 ```
+
+## Tips on array
+* Be aware of :
+    1. An empty sequence 
+    2. A sequence with 1 or 2 elements
+    3. A sequence with repeated elements
+    4. Appearances of duplicates in a sequence
+* Arrays and strings are both sequences
