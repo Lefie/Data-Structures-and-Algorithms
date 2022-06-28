@@ -21,4 +21,5 @@ An array is a data structure that stores values in a contiguous fashion. In othe
 | lookup        |  O(1)         |                |
 | append / pop       | O(1)      |    operation is done at the end of the array                |
 | insert        | O(n)      | shifting required     |
-| delete        | O(n)      | shifitng required
+| delete        | O(n)      | shifitng required    |
+| search        |O(n)       | without index, we have to loop through the array to find the item|
