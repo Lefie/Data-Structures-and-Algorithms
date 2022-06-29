@@ -1,7 +1,14 @@
 # Introduction 
 
 ## What is an array?
-An array is a data structure that stores values in a contiguous fashion. In other words, items are stored sequentially or one after another in memory. In python, an array is called a list.
+An array is a data structure that stores values in a contiguous fashion. In other words, items are stored sequentially or one after another in memory.
+
+Note that in python, a list can store items of different data types, whereas an array can only store items of the same data type.
+
+## Why do we use arrays?
+We can choose to use an array when 
+* we want to store data and iterate over it one by one 
+* we want to store multiple values in a single variable 
 
 ## Advantages 
 
