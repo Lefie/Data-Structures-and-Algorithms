@@ -25,7 +25,7 @@ We can choose to use an array when
 ## Operations
 | Operations    | Big O  | Comment  |
 | ------------- |:-------------:| :-------------:| 
-| lookup        |  O(1)         |                |
+| lookup        |  O(1)         |     looking up a value using index         |
 | append / pop       | O(1)      |    operation is done at the end of the array                |
 | insert        | O(n)      | shifting required     |
 | delete        | O(n)      | shifitng required    |
