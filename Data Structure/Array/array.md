@@ -11,7 +11,6 @@ We can choose to use an array when
 * we want to store multiple values in a single variable 
 
 ## Advantages 
-
 * Storing data in sequential order 
 * Fast Lookups using index 
 * Fast append and pop at the end of the array
@@ -72,3 +71,19 @@ new_arr.clear()
     3. A sequence with repeated elements
     4. Appearances of duplicates in a sequence
 * Arrays and strings are both sequences
+
+
+## String
+* A string is a sequence of characters
+
+## Things to look out for
+* empty string
+* string with 1 or 2 characters
+* string with repeated characters
+* string with only distinct characters
+
+## Common problems:
+* counting characters
+* string of unique characters
+* anagrams
+* palindrome
